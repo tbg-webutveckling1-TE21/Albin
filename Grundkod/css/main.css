@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body{
+    background-color: blue;
+}
+header{
+    text-align: center;
+    font-family: jokerman;
+    color: aqua;
+}
+main{
+    background-color: coral;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 5px;
+
+}
+main section {
+    background-color: white;
+    height: 250px;
+    width: 250px;
+    border: 5px solid black;
+    border-radius: 150px;
+    font-family: showcard gothic;
+    
+
+
+}
+main section a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-decoration: 0;
+    color: black;
+    font-size: 25px;
+}
+main section a:hover {
+    font-size: 110%;
+    background-color: aqua;
+    border-radius: 150px;
+    font-size: 25px;
+ 
+}
