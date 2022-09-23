@@ -41,3 +41,10 @@ main section a:hover {
     font-size: 25px;
  
 }
+img {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
