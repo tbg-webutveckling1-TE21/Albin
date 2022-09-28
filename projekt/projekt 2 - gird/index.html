@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <title>Grid test 1</title>
+    <style>
+        .grid-container {
+            display: grid;
+            gap: 10px;
+            grid-template-columns: 100px 100px 100px 100px;
+            grid-template-rows: 100px 100px 100px;
+            background-color: white;
+            border: solid black 2px;
+            font-size: 15px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: justify;
+            padding: 10px;
+            margin: auto;
+            width: 430px;
+        }
+        .item1 {
+            grid-column-start: 1;
+            grid-column-end: 5;
+            background-color: red;
+        }
+        .item2{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            background-color: lightgreen;
+        }
+        .item3{
+            grid-column-start: 3;
+            grid-column-end: 5;
+            background-color: lightblue;
+        }
+        .item4{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            background-color: yellow;
+        }
+        .item5{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            background-color: yellow;
+        }
+        .item6{
+            grid-column-start: 3;
+            grid-column-end: 5;
+            background-color: lightblue;
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="item1">AAA</div>
+        <div class="item2">BBB</div>
+        <div class="item3">CCC</div>  
+        <div class="item4">DDD</div>
+        <div class="item5">EEE</div>
+        <div class="item6">FFF</div>
+      </div>
+</body>
+
+</html>
