@@ -45,9 +45,33 @@ img.floatbild {
     float:right;
     width: 170px;
 }
-
-
-
+nav.meny {
+    width: 60%;
+    float: right;
+    margin-top: 45px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    text-align: right;
+}
+nav li {
+    display: inline;
+    margin-left: 10px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    text-transform: uppercase;
+    background: green;
+    padding: 10px;
+    padding-bottom: 8px;
+    border-radius: 5px; 
+}
+nav a:hover {
+    background: lightgreen;
+    color: black;
 
 
 
